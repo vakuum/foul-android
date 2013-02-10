@@ -14,7 +14,7 @@ After that, you can download and install the [foul.apk archive](http://www.vakuu
 
 ## Building with Maven
 
-Please see [documentation/maven.md](documentation/maven.md) if you want to build this app on you own.
+Please see [documentation/maven.md](documentation/maven.md) if you want to build this app on your own.
 
 ## Screenshots
 
