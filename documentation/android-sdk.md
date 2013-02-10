@@ -1,4 +1,4 @@
-# Install the Android SDK
+## Install the Android SDK
 
 ```
 $ cd ~
@@ -8,7 +8,7 @@ $ mv android-sdk-linux android-sdk-r21.0.1
 $ ln -s android-sdk-r21.0.1 android-sdk
 ```
 
-# Set ANDROID_HOME and PATH
+## Set ANDROID_HOME and PATH
 
 ```
 $ export ANDROID_HOME=~/android-sdk
@@ -22,7 +22,7 @@ $ android --help
 
 You can put these environment variables into the startup script of your shell.
 
-# Install the Android target
+## Install the Android target
 
 ```
 $ android

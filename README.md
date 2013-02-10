@@ -1,16 +1,14 @@
 # Foul
 
-Foul is a team building app for Android.
-
 You are a scrum master and your team ignores all the rules? Then this app will save your day. It will keep your sprints clean, your backlog small, your dailies short and your team focused. With the help of a magical whistle and some colored cards, this app will bring your tasks back on track. And in the end, it will improve the overall performance of your team.
 
 ## Installation
 
-1. First, you must allow the installation of non-Market applications as described in [User Opt-In for Apps from Unknown Sources](https://developer.android.com/distribute/open.html#unknown-sources):
+First, you must allow the installation of non-Market applications as described in [User Opt-In for Apps from Unknown Sources](https://developer.android.com/distribute/open.html#unknown-sources):
 
 ![Allow installation of non-Market applications](documentation/screenshots/installation1.png)
 
-2. After that, you can download and install the [foul.apk archive](http://www.vakuumverpackt.de/foul/foul.apk) directly through the previous link or by using the following QR code:
+After that, you can download and install the [foul.apk archive](http://www.vakuumverpackt.de/foul/foul.apk) directly through the previous link or by using the following QR code:
 
 ![http://www.vakuumverpackt.de/foul/foul.apk](documentation/screenshots/installation2.png)
 
