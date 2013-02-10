@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+	<string name="foul">Foul</string>
+	<string name="yellow_card">Gelbe Karte</string>
+	<string name="red_card">Rote Karte</string>
+	<string name="whistle">Pfeifen</string>
+	<string name="about">Über</string>
+	<string name="nothing"></string>
+
+</resources>

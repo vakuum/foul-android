@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+	package="de.vakuumverpackt.foul"
+	android:versionCode="1"
+	android:versionName="1.0.0-SNAPSHOT" >
+
+	<uses-sdk
+		android:minSdkVersion="10"
+		android:targetSdkVersion="10" />
+
+	<application
+		android:allowBackup="true"
+		android:icon="@drawable/foul"
+		android:label="@string/foul"
+		android:theme="@style/AppTheme" >
+		<activity
+			android:name=".Foul"
+			android:label="@string/foul" >
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				<category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+		</activity>
+		<activity
+			android:name=".YellowCardActivity"
+			android:label="@string/yellow_card" >
+		</activity>
+		<activity
+			android:name=".RedCardActivity"
+			android:label="@string/red_card" >
+		</activity>
+	</application>
+
+</manifest>

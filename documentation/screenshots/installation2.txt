@@ -1,0 +1,2 @@
+$ qrencode 'http://www.vakuumverpackt.de/foul/foul.apk' -o installing.png -s 5
+

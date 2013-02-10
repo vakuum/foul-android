@@ -1,0 +1,41 @@
+<b>Foul</b>
+
+<p>
+Home: <a href="https://github.com/vakuum/foul-android">GitHub</a><br>
+Author: Clemens Fuchlocher<br>
+License: <a href="https://www.gnu.org/licenses/gpl-2.0.txt">GPLv3</a><br>
+</p>
+
+<b>Icons</b>
+
+<p>
+Asset: <a href="https://commons.wikimedia.org/wiki/File:Yellow_card.svg">Yellow_card.svg</a><br>
+Author: <a href="https://commons.wikimedia.org/wiki/User:Ed_g2s">Ed_g2s</a><br>
+License: <a href="https://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a><br>
+</p>
+
+<p>
+Asset: <a href="https://commons.wikimedia.org/wiki/File:Red_card.svg">Red_card.svg</a><br>
+Author: <a href="https://commons.wikimedia.org/wiki/User:Ed_g2s">Ed_g2s</a><br>
+License: <a href="https://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a><br>
+</p>
+
+<p>
+Asset: <a href="https://commons.wikimedia.org/wiki/File:Yellow_Red_Card.svg">Yellow_Red_Card.svg</a><br>
+Author: <a href="https://commons.wikimedia.org/wiki/User:PS2801">PS2801</a><br>
+License: <a href="https://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a><br>
+</p>
+
+<p>
+Asset: <a href="https://openclipart.org/detail/5370/whistle-by-kelan">kelan_whistle.svg</a><br>
+Author: <a href="https://openclipart.org/user-detail/kelan">kelan</a><br>
+License: <a href="https://en.wikipedia.org/wiki/Public_domain">Public domain</a><br>
+</p>
+
+<b>Sound</b>
+
+<p>
+Asset: <a href="http://www.freesound.org/people/joedeshon/sounds/78508/">referee_whistle_01.wav</a><br>
+Author: <a href="http://www.joedeshon.com/">Joe DeShon</a><br>
+License: <a href="https://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a>
+</p>

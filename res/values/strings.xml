@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+	<string name="foul">Foul</string>
+	<string name="yellow_card">Yellow card</string>
+	<string name="red_card">Red card</string>
+	<string name="whistle">Whistle</string>
+	<string name="about">About</string>
+	<string name="nothing"></string>
+
+</resources>
