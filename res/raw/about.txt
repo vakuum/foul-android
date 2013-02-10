@@ -2,7 +2,7 @@
 
 <p>
 Home: <a href="https://github.com/vakuum/foul-android">GitHub</a><br>
-Author: Clemens Fuchlocher<br>
+Author: Clemens Fuchslocher<br>
 License: <a href="https://www.gnu.org/licenses/gpl-2.0.txt">GPLv3</a><br>
 </p>
 
