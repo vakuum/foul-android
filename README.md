@@ -6,9 +6,13 @@ You are a scrum master and your team ignores all the rules? Then this app will s
 
 ## Installation
 
-1. First, you must allow the installation of non-Market applications as described in [User Opt-In for Apps from Unknown Sources](https://developer.android.com/distribute/open.html#unknown-sources): ![Allow installation of non-Market applications](documentation/screenshots/installation1.png)
+1. First, you must allow the installation of non-Market applications as described in [User Opt-In for Apps from Unknown Sources](https://developer.android.com/distribute/open.html#unknown-sources):
 
-2. After that, you can download and install the [foul.apk archive](http://www.vakuumverpackt.de/foul/foul.apk) directly through the previous link or by using the following QR code: ![http://www.vakuumverpackt.de/foul/foul.apk](documentation/screenshots/installation2.png)
+![Allow installation of non-Market applications](documentation/screenshots/installation1.png)
+
+2. After that, you can download and install the [foul.apk archive](http://www.vakuumverpackt.de/foul/foul.apk) directly through the previous link or by using the following QR code:
+
+![http://www.vakuumverpackt.de/foul/foul.apk](documentation/screenshots/installation2.png)
 
 ## Building with Maven
 
