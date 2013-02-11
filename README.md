@@ -22,13 +22,9 @@ Please see [documentation/maven.md](documentation/maven.md) if you want to build
 
 ![Foul](documentation/screenshots/foul2.png)
 
-![Yellow card](documentation/screenshots/foul-yellow-card1.png)
+![Yellow card](documentation/screenshots/foul-yellow-card.png)
 
-![Yellow card](documentation/screenshots/foul-yellow-card2.png)
-
-![Red card](documentation/screenshots/foul-red-card1.png)
-
-![Red card](documentation/screenshots/foul-red-card2.png)
+![Red card](documentation/screenshots/foul-red-card.png)
 
 ![About](documentation/screenshots/foul-about1.png)
 
