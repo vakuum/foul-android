@@ -1,7 +1,8 @@
 language: java
 
 before_install:
-  - if [ "$(uname -m)" == "x86_64" ]; then sudo apt-get update; sudo apt-get install --force-yes ia32-libs ia32-libs-multiarch; fi
+  - sudo apt-get update
+  - sudo apt-get install --force-yes ia32-libs ia32-libs-multiarch
   - wget http://dl.google.com/android/android-sdk_r21.0.1-linux.tgz
   - tar -zxf android-sdk_r21.0.1-linux.tgz
   - export ANDROID_HOME=$PWD/android-sdk-linux
