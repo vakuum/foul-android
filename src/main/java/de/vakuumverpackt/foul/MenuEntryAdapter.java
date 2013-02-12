@@ -37,10 +37,10 @@ public class MenuEntryAdapter extends ArrayAdapter<MenuEntry> {
 
 	@Override
 	public View getView(final int n, final View view, final ViewGroup group) {
-		return getMenuEntryView(n, getView(view));
+		return getEntry(n, getView(view));
 	}
 
-	private View getMenuEntryView(final int n, final View view) {
+	private View getEntry(final int n, final View view) {
 		MenuEntry entry = getItem(n);
 		if (entry == null) {
 			return view;
