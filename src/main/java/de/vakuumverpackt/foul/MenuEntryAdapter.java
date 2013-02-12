@@ -62,11 +62,11 @@ public class MenuEntryAdapter extends ArrayAdapter<MenuEntry> {
 		return getInflater().inflate(R.layout.menu_entry, null);
 	}
 
-	public LayoutInflater getInflater() {
+	private LayoutInflater getInflater() {
 		return (LayoutInflater) getContext().getSystemService(Context.LAYOUT_INFLATER_SERVICE);
 	}
 
-	public Bitmap getBitmap(final MenuEntry entry) {
+	private Bitmap getBitmap(final MenuEntry entry) {
 		try {
 			return BitmapFactory.decodeStream(getContext().getResources().getAssets().open(entry.getIcon()));
 		} catch (IOException e) {
