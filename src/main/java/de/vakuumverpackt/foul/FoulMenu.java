@@ -21,17 +21,14 @@ import java.util.List;
 
 import android.content.Context;
 
-public class FoulMenu {
+public final class FoulMenu {
 
 	public enum MenuId { YELLOW_CARD, RED_CARD, WHISTLE }
 
-	private Context context;
-
-	public FoulMenu(final Context context) {
-		this.context = context;
+	private FoulMenu() {
 	}
 
-	public List<MenuEntry> getMenuEntries() {
+	public static List<MenuEntry> getEntries(final Context context) {
 		List<MenuEntry> entries = new ArrayList<MenuEntry>();
 		entries.add(new MenuEntry(MenuId.YELLOW_CARD, context.getString(R.string.yellow_card), "yellow.png"));
 		entries.add(new MenuEntry(MenuId.RED_CARD, context.getString(R.string.red_card), "red.png"));

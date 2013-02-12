@@ -31,8 +31,8 @@ import android.widget.TextView;
 
 public class MenuEntryAdapter extends ArrayAdapter<MenuEntry> {
 
-	public MenuEntryAdapter(final Context context, final FoulMenu menu) {
-		super(context, -1, menu.getMenuEntries());
+	public MenuEntryAdapter(final Context context) {
+		super(context, -1, FoulMenu.getEntries(context));
 	}
 
 	@Override

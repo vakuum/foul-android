@@ -38,7 +38,7 @@ public class Foul extends ListActivity {
 	}
 
 	private ListAdapter getAdapter() {
-		return new MenuEntryAdapter(this, new FoulMenu(this));
+		return new MenuEntryAdapter(this);
 	}
 
 	@Override
