@@ -8,9 +8,9 @@ First, you must allow the installation of non-Market applications as described i
 
 ![Allow installation of non-Market applications](documentation/screenshots/installation1.png)
 
-After that, you can download and install the [foul.apk archive](http://www.vakuumverpackt.de/foul/foul.apk) directly through the previous link or by using the following QR code:
+After that, you can download and install the [foul.apk archive](https://raw.github.com/vakuum/foul-android/master/foul.apk) directly through the previous link or by using the following QR code:
 
-![http://www.vakuumverpackt.de/foul/foul.apk](documentation/screenshots/installation2.png)
+![https://raw.github.com/vakuum/foul-android/master/foul.apk](documentation/screenshots/installation2.png)
 
 ## Building with Maven
 

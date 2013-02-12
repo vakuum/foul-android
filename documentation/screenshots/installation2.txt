@@ -1,2 +1,1 @@
-$ qrencode 'http://www.vakuumverpackt.de/foul/foul.apk' -o installation2.png -m 0 -s 5
-
+$ qrencode 'https://raw.github.com/vakuum/foul-android/master/foul.apk' -o installation2.png -m 0 -s 5
