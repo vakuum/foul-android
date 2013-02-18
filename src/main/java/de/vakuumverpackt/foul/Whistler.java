@@ -25,8 +25,7 @@ public final class Whistler {
 	}
 
 	public static void whistle(final Context context) {
-		MediaPlayer player = MediaPlayer.create(context, R.raw.whistle);
-		player.start();
+		MediaPlayer.create(context, R.raw.whistle).start();
 	}
 
 }
