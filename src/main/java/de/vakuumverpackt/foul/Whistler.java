@@ -17,7 +17,6 @@
 package de.vakuumverpackt.foul;
 
 import android.content.Context;
-import android.media.AudioManager;
 import android.media.MediaPlayer;
 
 public final class Whistler {
@@ -26,10 +25,6 @@ public final class Whistler {
 	}
 
 	public static void whistle(final Context context) {
-		AudioManager audio = (AudioManager) context.getSystemService(Context.AUDIO_SERVICE);
-		int max = audio.getStreamMaxVolume(AudioManager.STREAM_MUSIC);
-		audio.setStreamVolume(AudioManager.STREAM_MUSIC, max, 0);
-
 		MediaPlayer player = MediaPlayer.create(context, R.raw.whistle);
 		player.start();
 	}
