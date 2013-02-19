@@ -60,7 +60,7 @@ Available Android Virtual Devices:
 ```
 $ cd ~
 $ git clone git://github.com/vakuum/foul-android.git
-$ cd ~/foul-android
+$ cd foul-android
 ```
 
 ## Build the app

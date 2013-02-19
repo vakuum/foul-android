@@ -25,6 +25,9 @@ You can put these environment variables into the startup script of your shell.
 ## Install the Android target
 
 ```
+$ android list targets
+Available Android targets:
+
 $ android
 
 Android SDK Manager
