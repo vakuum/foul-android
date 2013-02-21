@@ -6,9 +6,4 @@
 	android:layout_width="match_parent"
 	tools:context=".Foul" >
 
-	<ListView
-		android:id="@+id/menu"
-		android:layout_height="wrap_content"
-		android:layout_width="match_parent" />
-
 </RelativeLayout>
