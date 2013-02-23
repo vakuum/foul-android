@@ -75,7 +75,7 @@ target/foul.apk
 ## Start the emulator
 
 ```
-$ mvn android:emulator-start -Dandroid.emulator.avd=android-10
+$ mvn android:emulator-start
 ```
 
 ## Deploy the app
@@ -89,6 +89,6 @@ $ mvn android:undeploy
 ## Stop the emulator
 
 ```
-$ mvn android:emulator-stop -Dandroid.emulator.avd=android-10
+$ mvn android:emulator-stop
 ```
 

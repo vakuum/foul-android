@@ -55,6 +55,9 @@
 				<version>3.5.0</version>
 
 				<configuration>
+				    <emulator>
+						<avd>android-10</avd>
+				    </emulator>
 					<sdk>
 						<platform>10</platform>
 					</sdk>
