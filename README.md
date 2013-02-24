@@ -34,6 +34,8 @@ Please see [documentation/maven.md](documentation/maven.md) if you want to build
 
 ## Credits
 
+Many thanks to @rkistner for his post about [Android builds on Travis CI](http://rkistner.github.com/android/2013/02/05/android-builds-on-travis-ci/).
+
 ### Icons
 
 Asset: [Yellow_card.svg](https://commons.wikimedia.org/wiki/File:Yellow_card.svg)  
