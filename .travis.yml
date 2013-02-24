@@ -8,3 +8,4 @@ before_install:
   - export ANDROID_HOME=$PWD/android-sdk-linux
   - export PATH=$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools:$PATH
   - android update sdk --filter platform-tools,android-10 --force --no-ui
+  - cd foul-android

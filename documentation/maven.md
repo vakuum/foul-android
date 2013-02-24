@@ -55,15 +55,17 @@ Available Android Virtual Devices:
     Skin: WVGA800
 ```
 
-## Get the source code
+## Building
+
+### Get the source code
 
 ```
 $ cd ~
 $ git clone git://github.com/vakuum/foul-android.git
-$ cd foul-android
+$ cd foul-android/foul-android
 ```
 
-## Build the app
+### Create the application package
 
 ```
 $ mvn clean package android:apk
@@ -72,13 +74,19 @@ $ ls target/foul.apk
 target/foul.apk
 ```
 
-## Start the emulator
+### Start the emulator
 
 ```
 $ mvn android:emulator-start
 ```
 
-## Deploy the app
+### Unlock the lock screen
+
+```
+$ adb shell input keyevent 82
+```
+
+### Deploy the application package
 
 ```
 $ mvn android:deploy
@@ -86,9 +94,51 @@ $ mvn android:redeploy
 $ mvn android:undeploy
 ```
 
-## Stop the emulator
+### Stop the emulator
 
 ```
 $ mvn android:emulator-stop
 ```
 
+## Testing
+
+### Get the source code
+
+```
+$ cd ~
+$ git clone git://github.com/vakuum/foul-android.git
+$ cd foul-android
+```
+
+### Create the application package
+
+```
+$ mvn clean package android:apk --projects foul-android
+
+$ ls foul-android/target/foul.apk
+foul-android/target/foul.apk
+```
+
+### Start the emulator
+
+```
+$ mvn android:emulator-start --projects foul-android
+```
+
+### Unlock the lock screen
+
+```
+$ adb shell input keyevent 82
+```
+
+### Test the application package
+
+```
+$ mvn clean integration-test --projects foul-android-test
+```
+
+### Stop the emulator
+
+```
+$ mvn android:emulator-stop --projects foul-android
+```
