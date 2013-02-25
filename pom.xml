@@ -4,7 +4,7 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>foul-android</groupId>
-	<artifactId>foul-android-parent</artifactId>
+	<artifactId>foul-parent</artifactId>
 	<version>1.0.0-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
@@ -24,8 +24,8 @@
 	</developers>
 
 	<modules>
-		<module>foul-android</module>
-		<module>foul-android-test</module>
+		<module>foul</module>
+		<module>foul-test</module>
 	</modules>
 
 	<build>

@@ -62,7 +62,7 @@ Available Android Virtual Devices:
 ```
 $ cd ~
 $ git clone git://github.com/vakuum/foul-android.git
-$ cd foul-android/foul-android
+$ cd foul-android/foul
 ```
 
 ### Create the application package
@@ -113,16 +113,16 @@ $ cd foul-android
 ### Create the application package
 
 ```
-$ mvn clean install --projects foul-android
+$ mvn clean install --projects foul
 
-$ ls foul-android/target/foul.apk
-foul-android/target/foul.apk
+$ ls foul/target/foul.apk
+foul/target/foul.apk
 ```
 
 ### Start the emulator
 
 ```
-$ mvn android:emulator-start --projects foul-android
+$ mvn android:emulator-start --projects foul
 ```
 
 ### Unlock the lock screen
@@ -134,11 +134,11 @@ $ adb shell input keyevent 82
 ### Test the application package
 
 ```
-$ mvn clean integration-test --projects foul-android-test
+$ mvn clean integration-test --projects foul-test
 ```
 
 ### Stop the emulator
 
 ```
-$ mvn android:emulator-stop --projects foul-android
+$ mvn android:emulator-stop --projects foul
 ```
