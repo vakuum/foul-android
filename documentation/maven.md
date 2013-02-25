@@ -113,7 +113,7 @@ $ cd foul-android
 ### Create the application package
 
 ```
-$ mvn clean package android:apk --projects foul-android
+$ mvn clean install --projects foul-android
 
 $ ls foul-android/target/foul.apk
 foul-android/target/foul.apk
