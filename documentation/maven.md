@@ -13,6 +13,9 @@ java version "1.6.0_39"
 ...
 ```
 
+* [Java](http://www.oracle.com/technetwork/java/)
+* [Java Download](http://www.oracle.com/technetwork/java/javase/downloads/)
+
 ### Maven 3.0
 
 ```
@@ -23,6 +26,10 @@ $ mvn --version
 Apache Maven 3.0.4 (r1232337; 2012-01-17 08:44:56+0000)
 ...
 ```
+
+* [Maven](https://maven.apache.org/)
+* [Maven Download](https://maven.apache.org/download.cgi)
+* [Maven Installation Instructions](https://maven.apache.org/download.cgi#Installation_Instructions)
 
 ### Android SDK
 

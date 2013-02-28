@@ -8,6 +8,9 @@ $ mv android-sdk-linux android-sdk-r21.0.1
 $ ln -s android-sdk-r21.0.1 android-sdk
 ```
 
+* [Android](http://www.android.com/)
+* [Android SDK](https://developer.android.com/sdk/)
+
 ## Set ANDROID_HOME and PATH
 
 ```
