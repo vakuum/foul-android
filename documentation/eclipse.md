@@ -47,9 +47,6 @@ $ ls -1 ~/eclipse/eclipse
 ### Start Eclipse
 
 ```
-$ export ANDROID_HOME=~/android-sdk
-$ export PATH=$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools:$PATH
-
 $ ~/eclipse/eclipse
 ```
 
