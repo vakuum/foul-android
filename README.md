@@ -16,7 +16,11 @@ After that, you can download and install the [foul.apk archive](https://raw.gith
 
 ## Building with Maven
 
-Please see [documentation/maven.md](documentation/maven.md) if you want to build this app on your own.
+Please see [documentation/maven.md](documentation/maven.md) if you want to build this application with Maven.
+
+## Building with Eclipse
+
+Please see [documentation/eclipse.md](documentation/eclipse.md) if you want to build this application with Eclipse.
 
 ## Screenshots
 
