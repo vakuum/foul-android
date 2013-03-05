@@ -2,9 +2,9 @@
 
 ```
 $ cd ~
-$ wget http://dl.google.com/android/android-sdk_r21.0.1-linux.tgz
-$ tar -zxvf android-sdk_r21.0.1-linux.tgz
-$ mv android-sdk-linux android-sdk-r21.0.1
+$ wget http://dl.google.com/android/android-sdk_r21.1-linux.tgz
+$ tar -zxvf android-sdk_r21.1-linux.tgz
+$ mv android-sdk-linux android-sdk-r21.1
 $ ln -s android-sdk-r21.0.1 android-sdk
 ```
 
