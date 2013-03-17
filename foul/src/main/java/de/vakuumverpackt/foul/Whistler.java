@@ -21,11 +21,16 @@ import android.media.MediaPlayer;
 
 public final class Whistler {
 
+	private static MediaPlayer player;
+
 	private Whistler() {
 	}
 
 	public static void whistle(final Context context) {
-		MediaPlayer.create(context, R.raw.whistle).start();
+		if (player == null) {
+			player = MediaPlayer.create(context, R.raw.whistle);
+		}
+		player.start();
 	}
 
 }

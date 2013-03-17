@@ -59,6 +59,7 @@ public class FoulTest extends ActivityInstrumentationTestCase2<Foul> {
 	public void testYellowCard() throws Exception {
 		solo.clickOnText(t(R.string.yellow_card));
 		solo.assertCurrentActivity("YellowCardActivity.class", YellowCardActivity.class);
+		solo.clickOnScreen(1, 1);
 		solo.sendKey(Solo.MENU);
 		solo.clickOnText(t(R.string.whistle));
 	}
@@ -66,6 +67,7 @@ public class FoulTest extends ActivityInstrumentationTestCase2<Foul> {
 	public void testRedCard() throws Exception {
 		solo.clickOnText(t(R.string.red_card));
 		solo.assertCurrentActivity("RedCardActivity.class", RedCardActivity.class);
+		solo.clickOnScreen(1, 1);
 		solo.sendKey(Solo.MENU);
 		solo.clickOnText(t(R.string.whistle));
 	}

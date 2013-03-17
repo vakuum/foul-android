@@ -21,6 +21,7 @@ import android.media.AudioManager;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.MotionEvent;
 import android.view.Window;
 import android.view.WindowManager;
 
@@ -33,6 +34,15 @@ public abstract class CardActivity extends Activity {
 		setTitle(title);
 		setContentView(layout);
 		setVolumeControlStream(AudioManager.STREAM_MUSIC);
+	}
+
+	@Override
+	public boolean onTouchEvent(final MotionEvent event) {
+		if (event.getAction() == MotionEvent.ACTION_DOWN) {
+			Whistler.whistle(this);
+			return true;
+		}
+		return super.onTouchEvent(event);
 	}
 
 	@Override
