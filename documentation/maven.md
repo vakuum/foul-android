@@ -33,7 +33,7 @@ Apache Maven 3.0.4 (r1232337; 2012-01-17 08:44:56+0000)
 
 ### Android SDK
 
-The installation of the Android SDK is described in [documentation/android-sdk.md](android-sdk.md).
+The installation of the Android SDK is described in [documentation/android.md](android.md).
 
 ```
 $ export ANDROID_HOME=~/android-sdk

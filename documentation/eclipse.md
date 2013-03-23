@@ -20,7 +20,7 @@ java version "1.6.0_39"
 
 ### Android SDK
 
-The installation of the Android SDK is described in [documentation/android-sdk.md](android-sdk.md).
+The installation of the Android SDK is described in [documentation/android.md](android.md).
 
 ```
 $ export ANDROID_HOME=~/android-sdk
