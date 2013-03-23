@@ -47,7 +47,7 @@
 		<dependency>
 			<groupId>com.jayway.android.robotium</groupId>
 			<artifactId>robotium-solo</artifactId>
-			<version>3.6</version>
+			<version>4.0</version>
 		</dependency>
 
 		<dependency>
