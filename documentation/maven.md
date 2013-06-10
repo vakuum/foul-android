@@ -9,7 +9,7 @@ $ export JAVA_HOME=/opt/jdk-1.6.0
 $ export PATH=$JAVA_HOME/bin:$PATH
 
 $ java -version
-java version "1.6.0_39"
+java version "1.6.0_45"
 ...
 ```
 
