@@ -61,6 +61,7 @@
 					<configuration>
 						<emulator>
 							<avd>android-10</avd>
+							<wait>22222</wait>
 						</emulator>
 						<sdk>
 							<platform>10</platform>
