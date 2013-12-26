@@ -52,6 +52,8 @@ $ android list avd
 Available Android Virtual Devices:
 
 $ android create avd --name android-10 --target android-10 --abi armeabi
+Do you wish to create a custom hardware profile [no] no
+...
 
 $ android list avd
 Available Android Virtual Devices:
