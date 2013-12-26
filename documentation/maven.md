@@ -16,14 +16,14 @@ java version "1.6.0_45"
 * [Java](http://www.oracle.com/technetwork/java/)
 * [Java Download](http://www.oracle.com/technetwork/java/javase/downloads/)
 
-### Maven 3.0
+### Maven 3.1
 
 ```
-$ export M2_HOME=/opt/maven-3.0
+$ export M2_HOME=/opt/maven-3.1
 $ export PATH=$M2_HOME/bin:$PATH
 
 $ mvn --version
-Apache Maven 3.0.5 (r01de14724cdef164cd33c7c8c2fe155faf9602da; 2013-02-19 14:51:28+0100)
+Apache Maven 3.1.1 (0728685237757ffbf44136acec0402957f723d9a; 2013-09-17 17:22:22+0200)
 ...
 ```
 
