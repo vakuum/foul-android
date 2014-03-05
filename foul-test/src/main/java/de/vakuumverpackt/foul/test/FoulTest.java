@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2013 Clemens Fuchslocher <clemens@vakuumverpackt.de>
+ * Copyright (C) 2013-2014 Clemens Fuchslocher <clemens@vakuumverpackt.de>
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -19,7 +19,7 @@ package de.vakuumverpackt.foul.test;
 import junit.framework.Assert;
 import android.test.ActivityInstrumentationTestCase2;
 
-import com.jayway.android.robotium.solo.Solo;
+import com.robotium.solo.Solo;
 
 import de.vakuumverpackt.foul.Foul;
 import de.vakuumverpackt.foul.R;
