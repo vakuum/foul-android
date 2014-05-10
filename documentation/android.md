@@ -2,10 +2,10 @@
 
 ```
 $ cd ~
-$ wget http://dl.google.com/android/android-sdk_r22.3-linux.tgz
-$ tar -zxvf android-sdk_r22.3-linux.tgz
-$ mv android-sdk-linux android-sdk-r22.3
-$ ln -s android-sdk-r22.3 android-sdk
+$ wget http://dl.google.com/android/android-sdk_r22.6.2-linux.tgz
+$ tar -zxvf android-sdk_r22.6.2-linux.tgz
+$ mv android-sdk-linux android-sdk-r22.6.2
+$ ln -s android-sdk-r22.6.2 android-sdk
 ```
 
 * [Android](http://www.android.com/)
@@ -34,10 +34,11 @@ Available Android targets:
 $ android
 
 Android SDK Manager
+-> [X] Android SDK Tools (22.6.2)
 -> [X] Android SDK Platform-tools (19.0.1)
--> [X] Android SDK Build-tools (19.0.1)
+-> [X] Android SDK Build-tools (19.0.3)
 -> [X] Android 2.3.3 (API 10)
--> Install 6 packages...
+-> Install 7 packages...
 -> (*) Accept License
 -> Install
 

@@ -52,6 +52,7 @@ $ android list avd
 Available Android Virtual Devices:
 
 $ android create avd --name android-10 --target android-10 --abi armeabi
+...
 Do you wish to create a custom hardware profile [no] no
 ...
 
@@ -60,7 +61,7 @@ Available Android Virtual Devices:
     Name: android-10
     Path: /home/clemens/.android/avd/android-10.avd
   Target: Android 2.3.3 (API level 10)
-     ABI: armeabi
+ Tag/ABI: default/armeabi
     Skin: WVGA800
 ```
 
