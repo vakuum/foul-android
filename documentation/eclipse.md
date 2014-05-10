@@ -71,19 +71,21 @@ Window
 
 * [Android Development Tools for Eclipse](https://developer.android.com/tools/sdk/eclipse-adt.html)
 
-### Install the Android Configurator for M2E
+### Install the Android for Maven Eclipse
 
 ```
 Help
 -> Eclipse Marketplace...
--> Find: "Android Configurator for M2E"
+-> Find: "Android for Maven Eclipse"
 -> Go
+-> Android for Maven Eclipse 1.0.1
+-> Install
 -> Confirm
 -> (*) I accept the terms of the license agreements
 -> Finish
 ```
 
-* [Android Configurator for M2E](https://github.com/rgladwell/m2e-android)
+* [Android for Maven Eclipse](https://github.com/rgladwell/m2e-android)
 
 ## Run the project
 
