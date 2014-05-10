@@ -34,12 +34,12 @@ $ android --help
 
 ## Install Eclipse
 
-Download the [Eclipse IDE for Java Developers](http://www.eclipse.org/downloads/packages/eclipse-ide-java-developers/keplersr1) from http://www.eclipse.org/ and extract it into your home directory:
+Download the [Eclipse IDE for Java Developers](http://www.eclipse.org/downloads/packages/eclipse-ide-java-developers/keplersr2) from http://www.eclipse.org/ and extract it into your home directory:
 
 ```
 $ cd ~
-$ wget http://download.eclipse.org/technology/epp/downloads/release/kepler/SR1/eclipse-java-kepler-SR1-linux-gtk-x86_64.tar.gz
-$ tar -zxvf eclipse-java-kepler-SR1-linux-gtk-x86_64.tar.gz
+$ wget http://download.eclipse.org/technology/epp/downloads/release/kepler/SR2/eclipse-java-kepler-SR2-linux-gtk-x86_64.tar.gz
+$ tar -zxvf eclipse-java-kepler-SR2-linux-gtk-x86_64.tar.gz
 $ ls -1 ~/eclipse/eclipse
 /home/clemens/eclipse/eclipse
 ```
@@ -57,6 +57,7 @@ Help
 -> Eclipse Marketplace...
 -> Find: "Android Development Tools for Eclipse"
 -> Go
+-> Android Development Tools for Eclipse
 -> Install
 -> Confirm
 -> (*) I accept the terms of the license agreements
@@ -66,6 +67,7 @@ Window
 -> Preferences
 -> Android
 -> SDK Location: /home/clemens/android-sdk
+-> Apply
 -> OK
 ```
 
