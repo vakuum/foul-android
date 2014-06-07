@@ -45,6 +45,21 @@ $ which android
 $ android --help
 ```
 
+### Maven Android SDK Deployer
+
+From [Maven Android SDK Deployer](https://github.com/mosabua/maven-android-sdk-deployer):
+
+> The Maven Android SDK Deployer is a helper maven project that can be used to install the libraries necessary to build Android applications with Maven and the Android Maven Plugin directly from your local Android SDK installation. 
+
+```
+$ cd ~
+$ git clone https://github.com/mosabua/maven-android-sdk-deployer
+$ cd maven-android-sdk-deployer
+$ mvn install -P 2.3.3
+```
+
+* [Maven Android SDK Deployer](https://github.com/mosabua/maven-android-sdk-deployer)
+
 ## Create a virtual device for the emulator
 
 ```
@@ -64,21 +79,6 @@ Available Android Virtual Devices:
  Tag/ABI: default/armeabi
     Skin: WVGA800
 ```
-
-## Maven Android SDK Deployer
-
-From [Maven Android SDK Deployer](https://github.com/mosabua/maven-android-sdk-deployer):
-
-> The Maven Android SDK Deployer is a helper maven project that can be used to install the libraries necessary to build Android applications with Maven and the Android Maven Plugin directly from your local Android SDK installation. 
-
-```
-$ cd ~
-$ git clone https://github.com/mosabua/maven-android-sdk-deployer
-$ cd maven-android-sdk-deployer
-$ mvn install -P 2.3.3
-```
-
-* [Maven Android SDK Deployer](https://github.com/mosabua/maven-android-sdk-deployer)
 
 ## Building
 
