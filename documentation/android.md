@@ -35,8 +35,8 @@ $ android
 
 Android SDK Manager
 -> [X] Android SDK Tools (22.6.2)
--> [X] Android SDK Platform-tools (19.0.1)
--> [X] Android SDK Build-tools (19.0.3)
+-> [X] Android SDK Platform-tools (19.0.2)
+-> [X] Android SDK Build-tools (19.1)
 -> [X] Android 2.3.3 (API 10)
 -> Install 7 packages...
 -> (*) Accept License
