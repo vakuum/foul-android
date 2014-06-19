@@ -119,12 +119,30 @@ Package Explorer
 -> Android Application
 ```
 
-### Test the project
+## Testing
+
+### Unit tests (Robolectric)
+
+```
+Package Explorer
+-> foul
+-> Run As
+-> JUnit Test
+-> [X] Use configuration specific setting
+-> Eclipse JUnit Launcher
+-> OK
+-> Name: Foul unit tests
+-> (*) Run all tests in the selected project, package or source folder: foul
+-> Test runner: JUnit 4
+-> Run
+```
+
+### Integration tests (Robotium)
 
 ```
 Package Explorer
 -> foul-test
 -> Run As
--> Android JUnit Application
+-> Android JUnit Test
 ```
 

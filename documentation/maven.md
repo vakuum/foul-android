@@ -93,7 +93,7 @@ $ cd foul-android/foul
 ### Create the application package
 
 ```
-$ mvn clean package android:apk
+$ mvn clean package android:apk -DskipTests
 
 $ ls target/foul.apk
 target/foul.apk
@@ -135,7 +135,22 @@ $ git clone git://github.com/vakuum/foul-android.git
 $ cd foul-android
 ```
 
-### Create the application package
+### Unit tests with Robolectric
+
+* [Robolectric](http://robolectric.org/)
+
+```
+$ mvn clean test --projects foul
+...
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.341 sec
+...
+```
+
+### Integration tests with Robotium
+
+* [Robotium](https://code.google.com/p/robotium/)
+
+#### Create the application package
 
 ```
 $ mvn clean install --projects foul
@@ -144,25 +159,28 @@ $ ls foul/target/foul.apk
 foul/target/foul.apk
 ```
 
-### Start the emulator
+#### Start the emulator
 
 ```
 $ mvn android:emulator-start --projects foul
 ```
 
-### Unlock the lock screen
+#### Unlock the lock screen
 
 ```
 $ adb shell input keyevent 82
 ```
 
-### Test the application package
+#### Run the integration tests
 
 ```
 $ mvn clean integration-test --projects foul-test
+...
+[INFO]   Tests run: 5,  Failures: 0,  Errors: 0
+...
 ```
 
-### Stop the emulator
+#### Stop the emulator
 
 ```
 $ mvn android:emulator-stop --projects foul
