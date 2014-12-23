@@ -2,10 +2,10 @@
 
 ```
 $ cd ~
-$ wget http://dl.google.com/android/android-sdk_r22.6.2-linux.tgz
-$ tar -zxvf android-sdk_r22.6.2-linux.tgz
-$ mv android-sdk-linux android-sdk-r22.6.2
-$ ln -s android-sdk-r22.6.2 android-sdk
+$ wget http://dl.google.com/android/android-sdk_r24.0.2-linux.tgz
+$ tar -zxvf android-sdk_r24.0.2-linux.tgz
+$ mv android-sdk-linux android-sdk-r24.0.2
+$ ln -s android-sdk-r24.0.2 android-sdk
 ```
 
 * [Android](http://www.android.com/)
@@ -34,11 +34,11 @@ Available Android targets:
 $ android
 
 Android SDK Manager
--> [X] Android SDK Tools (22.6.2)
--> [X] Android SDK Platform-tools (19.0.2)
--> [X] Android SDK Build-tools (19.1)
+-> [X] Android SDK Tools (24.0.2)
+-> [X] Android SDK Platform-tools (21)
+-> [X] Android SDK Build-tools (21.1.2)
 -> [X] Android 2.3.3 (API 10)
--> Install 7 packages...
+-> Install 6 packages...
 -> (*) Accept License
 -> Install
 
@@ -50,8 +50,8 @@ id: 1 or "android-10"
      Type: Platform
      API level: 10
      Revision: 2
-     Skins: WVGA800 (default), HVGA, WVGA854, WQVGA400, QVGA, WQVGA432
-     ABIs : armeabi, x86
+     Skins: HVGA, QVGA, WQVGA400, WQVGA432, WVGA800 (default), WVGA854
+ Tag/ABIs : default/armeabi
 ...
 ```
 
