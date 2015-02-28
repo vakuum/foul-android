@@ -82,7 +82,7 @@ Help
 -> Eclipse Marketplace...
 -> Find: "Android for Maven Eclipse"
 -> Go
--> Android for Maven Eclipse 1.0.1
+-> Android for Maven Eclipse 1.2.1
 -> Install
 -> Confirm
 -> (*) I accept the terms of the license agreements
