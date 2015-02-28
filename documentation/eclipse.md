@@ -94,7 +94,7 @@ Help
 -> Yes
 ```
 
-The following doesn't work at the moment because of rgladwell/m2e-android#312:
+The following doesn't work at the moment because of [https://github.com/rgladwell/m2e-android/issues/312](https://github.com/rgladwell/m2e-android/issues/312):
 
 ```
 Help
