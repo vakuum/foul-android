@@ -66,4 +66,4 @@ License: [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/)
 
 ## License
 
-Copyright (c) 2013-2014 Clemens Fuchslocher, released under the GPLv3.
+Copyright (c) 2013-2015 Clemens Fuchslocher, released under the GPLv3.
