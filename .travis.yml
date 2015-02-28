@@ -6,6 +6,13 @@ jdk:
   - oraclejdk7
 
 before_install:
+  - sudo rm -f /etc/mavenrc
+  - wget http://www.us.apache.org/dist/maven/maven-3/3.1.1/binaries/apache-maven-3.1.1-bin.tar.gz
+  - tar -zxvf apache-maven-3.1.1-bin.tar.gz
+  - export MAVEN_OPTS="-Xmx512m -XX:MaxPermSize=192m"
+  - export M2_HOME=$PWD/apache-maven-3.1.1
+  - export PATH=$M2_HOME/bin:$PATH
+  - mvn --version
   - sudo apt-get update -qq
   - sudo apt-get install -qq --force-yes -o Dpkg::Options::="--force-confdef" -o Dpkg::Options::="--force-confold" ia32-libs ia32-libs-multiarch libgd2-xpm
   - wget http://dl.google.com/android/android-sdk_r24.0.2-linux.tgz
