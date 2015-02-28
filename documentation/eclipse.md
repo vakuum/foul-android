@@ -75,7 +75,26 @@ Help
 
 * [Android Development Tools for Eclipse](https://developer.android.com/tools/sdk/eclipse-adt.html)
 
-### Install the Android for Maven Eclipse
+### Install Android for Maven Eclipse
+
+```
+Help
+-> Install New Software...
+-> Add...
+-> Location: http://rgladwell.github.io/m2e-android/updates/
+-> OK
+-> [X] Android for Maven Eclipse 1.2.1
+-> Next
+-> Next
+-> (*) I accept the terms of the license agreement
+-> Finish
+-> Warning: You are installing software that contains unsigned content.
+-> OK
+-> You will need to restart Eclipse for the changes to take effect.
+-> Yes
+```
+
+The following doesn't work at the moment because of rgladwell/m2e-android#312:
 
 ```
 Help
