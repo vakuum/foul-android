@@ -1,6 +1,6 @@
 # Building with Eclipse
 
-Before you can run the application with Eclipse, make sure that you can build it with Maven as described in [documentation/maven.md](documentation/maven.md). If you skip the steps from the Maven build setup, then the following description will not work for you.
+Before you can run the application with Eclipse, make sure that you can build it with Maven as described in [documentation/maven.md](maven.md). If you skip the steps from the Maven build setup, then the following description will not work for you.
 
 ## Requirements
 
