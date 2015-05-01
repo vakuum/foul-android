@@ -15,11 +15,11 @@ before_install:
   - mvn --version
   - sudo apt-get update -qq
   - sudo apt-get install -qq --force-yes -o Dpkg::Options::="--force-confdef" -o Dpkg::Options::="--force-confold" ia32-libs ia32-libs-multiarch libgd2-xpm
-  - wget http://dl.google.com/android/android-sdk_r24.0.2-linux.tgz
-  - tar -zxvf android-sdk_r24.0.2-linux.tgz
+  - wget http://dl.google.com/android/android-sdk_r24.1.2-linux.tgz
+  - tar -zxvf android-sdk_r24.1.2-linux.tgz
   - export ANDROID_HOME=$PWD/android-sdk-linux
   - export PATH=$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools:$PATH
-  - echo yes | android update sdk --filter platform-tools,android-10,build-tools-21.1.2,addon-google_apis-google-10 --force --no-ui
+  - echo yes | android update sdk --filter platform-tools,android-10,build-tools-22.0.1,addon-google_apis-google-10 --force --no-ui
   - git clone https://github.com/mosabua/maven-android-sdk-deployer
   - cd maven-android-sdk-deployer
   - mvn install -P 2.3.3
