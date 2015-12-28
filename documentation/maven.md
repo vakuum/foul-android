@@ -174,10 +174,14 @@ $ adb shell input keyevent 82
 #### Run the integration tests
 
 ```
+$ mvn android:deploy --projects foul
+
 $ mvn clean integration-test --projects foul-test
 ...
 [INFO]   Tests run: 5,  Failures: 0,  Errors: 0
 ...
+
+$ mvn android:undeploy --projects foul
 ```
 
 #### Stop the emulator
