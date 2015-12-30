@@ -76,7 +76,6 @@
 					<extensions>true</extensions>
 				</plugin>
 
-				<!-- https://github.com/rgladwell/m2e-android/issues/177 -->
 				<plugin>
 					<groupId>org.eclipse.m2e</groupId>
 					<artifactId>lifecycle-mapping</artifactId>
@@ -87,11 +86,11 @@
 							<pluginExecutions>
 								<pluginExecution>
 									<pluginExecutionFilter>
-										<groupId>com.jayway.maven.plugins.android.generation2</groupId>
+										<groupId>com.simpligility.maven.plugins</groupId>
 										<artifactId>android-maven-plugin</artifactId>
-										<versionRange>[3.8.0,)</versionRange>
+										<versionRange>[4.0.0,)</versionRange>
 										<goals>
-											<goal>consume-aar</goal>
+											<goal>emma</goal>
 										</goals>
 									</pluginExecutionFilter>
 									<action>
