@@ -34,11 +34,12 @@ Available Android targets:
 $ android
 
 Android SDK Manager
+-> Show: [X] Obsolete
 -> [X] Android SDK Tools (24.4.1)
--> [X] Android SDK Platform-tools (23.1)
--> [X] Android SDK Build-tools (23.0.2)
+-> [X] Android SDK Platform-tools (26)
+-> [X] Android SDK Build-tools (25.0.3)
 -> [X] Android 2.3.3 (API 10)
--> Install 6 packages...
+-> Install 9 packages...
 -> (*) Accept License
 -> Install
 
@@ -51,7 +52,7 @@ id: 1 or "android-10"
      API level: 10
      Revision: 2
      Skins: HVGA, QVGA, WQVGA400, WQVGA432, WVGA800 (default), WVGA854
- Tag/ABIs : default/armeabi
+ Tag/ABIs : default/armeabi, default/armeabi-v7a, default/x86, google_apis/armeabi-v7a, google_apis/x86
 ...
 ```
 
