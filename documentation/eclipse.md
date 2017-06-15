@@ -34,12 +34,12 @@ $ android --help
 
 ## Install Eclipse
 
-Download the [Eclipse IDE for Java Developers](http://www.eclipse.org/downloads/packages/eclipse-ide-java-developers/mars1) from http://www.eclipse.org/ and extract it into your home directory:
+Download the [Eclipse IDE for Java Developers](https://www.eclipse.org/downloads/packages/eclipse-ide-java-developers/neon3) from http://www.eclipse.org/ and extract it into your home directory:
 
 ```
 $ cd ~
-$ wget http://download.eclipse.org/technology/epp/downloads/release/mars/1/eclipse-java-mars-1-linux-gtk-x86_64.tar.gz
-$ tar -zxvf eclipse-java-mars-1-linux-gtk-x86_64.tar.gz
+$ wget http://download.eclipse.org/technology/epp/downloads/release/neon/3/eclipse-java-neon-3-linux-gtk-x86_64.tar.gz
+$ tar -zxvf eclipse-java-neon-3-linux-gtk-x86_64.tar.gz
 $ ls -1 ~/eclipse/eclipse
 /home/clemens/eclipse/eclipse
 ```
