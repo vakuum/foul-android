@@ -1,4 +1,4 @@
-# Foul [![Build Status](https://api.travis-ci.org/vakuum/foul-android.png?branch=master)](https://travis-ci.org/vakuum/foul-android)
+# Foul [![Build status](https://github.com/vakuum/foul-android/workflows/build/badge.svg)](https://github.com/vakuum/foul-android/actions?query=workflow%3Abuild)
 
 You are a product owner or scrum master and your customer or team ignores all the rules? Then this app will save your day. It will keep your sprints clean, your backlog small, your dailies short and your team focused. With the help of a magical whistle and some colored cards, this app will bring your tasks back on track. And in the end, it will improve the overall performance of your team.
 
