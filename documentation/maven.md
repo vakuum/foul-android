@@ -9,12 +9,14 @@ $ export JAVA_HOME=/opt/jdk-1.8.0
 $ export PATH=$JAVA_HOME/bin:$PATH
 
 $ java -version
-java version "1.8.0_131"
+java version "1.8.0_281"
+Java(TM) SE Runtime Environment (build 1.8.0_281-b09)
+Java HotSpot(TM) 64-Bit Server VM (build 25.281-b09, mixed mode)
 ...
 ```
 
-* [Java](http://www.oracle.com/technetwork/java/)
-* [Java Download](http://www.oracle.com/technetwork/java/javase/downloads/)
+* [Java](https://www.oracle.com/java/technologies/)
+* [Java Download](https://www.oracle.com/java/technologies/javase-downloads.html)
 
 ### Maven 3.1
 
@@ -29,7 +31,6 @@ Apache Maven 3.1.1 (0728685237757ffbf44136acec0402957f723d9a; 2013-09-17 17:22:2
 
 * [Maven](https://maven.apache.org/)
 * [Maven Download](https://maven.apache.org/download.cgi)
-* [Maven Installation Instructions](https://maven.apache.org/download.cgi#Installation_Instructions)
 
 ### Android SDK
 
@@ -55,6 +56,7 @@ From [Maven Android SDK Deployer](https://github.com/mosabua/maven-android-sdk-d
 $ cd ~
 $ git clone https://github.com/mosabua/maven-android-sdk-deployer
 $ cd maven-android-sdk-deployer
+$ git checkout 4c545b6c20a13d9885506fd4790cc7298096c502
 $ mvn install -P 2.3.3
 ```
 
@@ -148,7 +150,7 @@ Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.341 sec
 
 ### Integration tests with Robotium
 
-* [Robotium](https://code.google.com/p/robotium/)
+* [Robotium](https://github.com/robotiumtech/robotium)
 
 #### Create the application package
 

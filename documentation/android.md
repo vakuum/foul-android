@@ -36,8 +36,8 @@ $ android
 Android SDK Manager
 -> Show: [X] Obsolete
 -> [X] Android SDK Tools (24.4.1)
--> [X] Android SDK Platform-tools (26)
--> [X] Android SDK Build-tools (25.0.3)
+-> [X] Android SDK Platform-tools (29.0.6)
+-> [X] Android SDK Build-tools (29.0.3)
 -> [X] Android 2.3.3 (API 10)
 -> Install 9 packages...
 -> (*) Accept License
