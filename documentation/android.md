@@ -8,8 +8,11 @@ $ mv android-sdk-linux android-sdk-r24.4.1
 $ ln -s android-sdk-r24.4.1 android-sdk
 ```
 
-* [Android](http://www.android.com/)
+* [Android](https://www.android.com/)
 * [Android SDK](https://developer.android.com/sdk/)
+* [SDK Build Tools release notes](https://developer.android.com/studio/releases/build-tools)
+* [SDK Platform release notes](https://developer.android.com/studio/releases/platforms)
+* [SDK Platform Tools release notes](https://developer.android.com/studio/releases/platform-tools)
 
 ## Set ANDROID_HOME and PATH
 
@@ -37,7 +40,7 @@ Android SDK Manager
 -> Show: [X] Obsolete
 -> [X] Android SDK Tools (24.4.1)
 -> [X] Android SDK Platform-tools (29.0.6)
--> [X] Android SDK Build-tools (29.0.3)
+-> [X] Android SDK Build-tools (25.0.3)
 -> [X] Android 2.3.3 (API 10)
 -> Install 9 packages...
 -> (*) Accept License

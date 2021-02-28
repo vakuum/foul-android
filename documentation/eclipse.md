@@ -11,12 +11,12 @@ $ export JAVA_HOME=/opt/jdk-1.8.0
 $ export PATH=$JAVA_HOME/bin:$PATH
 
 $ java -version
-java version "1.8.0_131"
+java version "1.8.0_281"
 ...
 ```
 
-* [Java](http://www.oracle.com/technetwork/java/)
-* [Java Download](http://www.oracle.com/technetwork/java/javase/downloads/)
+* [Java](https://www.oracle.com/java/technologies/)
+* [Java Download](https://www.oracle.com/java/technologies/javase-downloads.html)
 
 ### Android SDK
 
@@ -34,12 +34,12 @@ $ android --help
 
 ## Install Eclipse
 
-Download the [Eclipse IDE for Java Developers](https://www.eclipse.org/downloads/packages/eclipse-ide-java-developers/neon3) from http://www.eclipse.org/ and extract it into your home directory:
+Download the [Eclipse IDE for Java Developers](https://www.eclipse.org/downloads/packages/release/2020-06/r) from http://www.eclipse.org/ and extract it into your home directory:
 
 ```
 $ cd ~
-$ wget http://download.eclipse.org/technology/epp/downloads/release/neon/3/eclipse-java-neon-3-linux-gtk-x86_64.tar.gz
-$ tar -zxvf eclipse-java-neon-3-linux-gtk-x86_64.tar.gz
+$ wget https://download.eclipse.org/technology/epp/downloads/release/2020-06/R/eclipse-java-2020-06-R-linux-gtk-x86_64.tar.gz
+$ tar -zxvf eclipse-java-2020-06-R-linux-gtk-x86_64.tar.gz
 $ ls -1 ~/eclipse/eclipse
 /home/clemens/eclipse/eclipse
 ```
@@ -50,33 +50,32 @@ $ ls -1 ~/eclipse/eclipse
 $ ~/eclipse/eclipse
 ```
 
-### Install Android Development Tools for Eclipse
+### Install Android Development Tools for Android
 
 ```
 Help
 -> Eclipse Marketplace...
--> Find: "Android Development Tools for Eclipse"
+-> Find: "Andmore: Development Tools for Android"
 -> Go
--> Android Development Tools for Eclipse
+-> Andmore: Development Tools for Android 0.5.1
 -> Install
 -> Confirm
 -> (*) I accept the terms of the license agreements
 -> Finish
--> Warning: You are installing software that contains unsigned content.
--> OK
--> You will need to restart Eclipse for the changes to take effect.
--> Yes
+-> Restart Eclipse IDE to apply the software update?
+-> Restart Now
 -> Location of the Android SDK has not been setup in the preferences.
 -> Close
 -> (*) Use existing SDKs
 -> Existing Location: /home/clemens/android-sdk
--> Next
+-> Finish
 -> Send usage statistics to Google?
 -> (*) No
 -> Finish
 ```
 
-* [Android Development Tools for Eclipse](https://developer.android.com/tools/sdk/eclipse-adt.html)
+* [Andmore: Development Tools for Android](https://projects.eclipse.org/projects/tools.andmore)
+* [Andmore: Development Tools for Android](https://marketplace.eclipse.org/content/andmore-development-tools-android)
 
 ### Install Android for Maven Eclipse
 
@@ -84,17 +83,17 @@ Help
 Help
 -> Install New Software...
 -> Add...
--> Location: http://rgladwell.github.io/m2e-android/updates/
--> OK
+-> Location: https://rgladwell.github.io/m2e-android/updates/
+-> Add
 -> [X] Android for Maven Eclipse 1.4.0
 -> Next
 -> Next
--> (*) I accept the terms of the license agreement
+-> (*) I accept the terms of the license agreements
 -> Finish
--> Warning: You are installing software that contains unsigned content.
--> OK
--> You will need to restart Eclipse for the changes to take effect.
--> Yes
+-> Warning: Installing unsigned software for which the authenticity of validity cannot be established. Continue with the installation?
+-> Install anyway
+-> Restart Eclipse IDE to apply the software update?
+-> Restart Now
 ```
 
 * [Android for Maven Eclipse](https://github.com/rgladwell/m2e-android)
@@ -113,7 +112,8 @@ $ git clone git://github.com/vakuum/foul-android.git
 ```
 File
 -> Import...
--> Existing Maven Project
+-> Maven
+-> Existing Maven Projects
 -> Next
 -> Root Directory: /home/clemens/foul-android
 -> Finish
